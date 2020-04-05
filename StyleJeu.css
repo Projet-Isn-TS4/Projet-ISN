@@ -2,6 +2,16 @@ body {
   font-size: 30px;
 }
 
+h1 {
+  font-family: rockwell;
+  font-size: 300%;
+}
+
+p {
+  font-family: rockwell;
+  font-size: 125%;
+}
+
 ul {
   list-style-type: none;
   margin: -7;
