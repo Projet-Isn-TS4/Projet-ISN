@@ -1,15 +1,18 @@
 body {
   font-size: 30px;
+  background-color: rgb(234, 231, 220);
 }
 
 h1 {
   font-family: rockwell;
   font-size: 300%;
+  color: rgb(232, 90, 79);
 }
 
 p {
   font-family: rockwell;
   font-size: 125%;
+  color: rgb(74, 73, 70);
 }
 
 ul {
@@ -17,7 +20,7 @@ ul {
   margin: -7;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(74, 73, 70);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -29,7 +32,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(234, 231, 220);
   text-align: center;
   padding: 13px 16px;
   text-decoration: none;
