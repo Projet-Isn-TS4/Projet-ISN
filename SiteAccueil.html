@@ -2,22 +2,56 @@
 	<head>
 	<title>Jeu ISN</title>
 	</head>
- <link rel="stylesheet" href="styleaccueil.css">
+<link rel="icon" type="image/png" href="de_logo.png" />
+<link rel="stylesheet" href="styleaccueil.css">
 <body>
 
-<ul style="font-size:110%;font-family:rockwell;">
-  <li><a href="new1.html">Accueil</a></li>
-  <li><a href="pull.html">Jeu</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">PFC</a></li>
-</ul>
+<nav>
+	<ul>
+		<li><a href="Accueil.html">Accueil</a></li>
+		<li class="deroulant"><a href="Jeux.html">Jeux</a>
+			<ul class="sous">
+				<li><a href="pierre.html">Pierre Feuille Ciseaux</a></li>
+				<li><a href="P4.html">Puissance 4</a></li>
+			</ul>
+		</li>
+		<li><a href="regles.html">Règles</a></li>
+		<li><a href="contact.html">Contact</a></li>		
+		<li style="float:right"><img src="de_logo.png" alt="Logo" width="45" height="45"></li>
+	</ul>
+</nav>
 
-<p></p>
-<p>
-<h3 id="ancre1">	Page d'accueil de notre site ISN sur différents jeux !
-</h3> 
-</p>
+<img class="image JeuFond" src="jeuimg5.jpg">
 
+<h3 id="ancre1">Page d'accueil de notre site ISN sur différents jeux !</h3>
+
+
+<div class="row">
+	<div class="column">
+		<div class="polaroid">
+			<img src="jeuimg1.jpg" alt="Monopoly" style="width:100%">
+			<div class="container">
+			<p>Monopoly</p>
+			</div>
+		</div>
+	</div>
+	<div class="column">
+		<div class="polaroid">
+			<img src="jeuimg2.jpg" alt="UNO" style="width:100%">
+			<div class="container">
+			<p>UNO</p>
+			</div>
+		</div>
+	</div>
+	<div class="column">
+		<div class="polaroid">
+			<img src="jeuimg3.jpg" alt="Echecs" style="width:100%">
+			<div class="container">
+			<p>Echecs</p>
+			</div>
+		</div>
+	</div>
+</div>
 
 <a href="#ancre1">Remonter en haut de la page</a>
 </body>
