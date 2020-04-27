@@ -88,10 +88,17 @@ h1 {
   color: rgb(232, 90, 79);
 }
 
-p {
+h2 {
   font-family: arial;
   font-size: 125%;
+  text-align:center;
+}
+
+p {
+  font-family: arial;
+  font-size: 100%;
   color: rgb(37, 38, 41);
+  text-align:center;
 }
 
 .box {
