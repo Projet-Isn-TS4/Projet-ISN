@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="stylecontact.css" />
+		<title>Jeu PFC</title>
+	</head>
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="Accueil.html">Accueil</a></li>
+        <li class="deroulant"><a href="pierre.html">Jeux</a>
+            <ul class="sous">
+                <li><a href="pierre.html">Pierre Feuille Ciseaux</a></li>
+                <li><a href="P4.html">Puissance 4</a></li>
+            </ul>
+        </li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float:right"><img src="de_logo.png" alt="Logo" width="45" height="45"></li>
+    </ul>
+</nav>
+
+<br/>
+
+<div class="header" style="text-align:center;">
+  <h1>Contact</h1>
+  <br/>
+</div>
+
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+</form>
+
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
