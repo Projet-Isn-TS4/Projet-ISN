@@ -107,3 +107,12 @@ p {
   justify-content : center;
   padding : 10px ;
 }
+
+div {
+  background-color: lightgrey;
+  width: 750px;
+  border: 15px solid rgb(232, 90, 79);
+  padding: 75px;
+  margin: 10px;
+  margin-left : 16%;
+}
