@@ -17,7 +17,7 @@ nav{
     margin: 0px;
     padding: 0px;
     background-color: rgb(37, 38, 41);
-    position: -webkit-sticky; / Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0px;
 }
