@@ -17,7 +17,7 @@ nav{
     margin: 0px;
     padding: 0px;
     background-color: rgb(37, 38, 41);
-    position: -webkit-sticky; / Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0px;
 }
@@ -84,13 +84,26 @@ nav > ul li:hover .sous{
 
 h1 {
   font-family: arial;
-  font-size: 300%;
+  font-size: 180%;
   color: rgb(232, 90, 79);
 }
 
 h2 {
   font-family: arial;
-  font-size: 125%;
+  font-size: 100%;
+  text-align:center;
+}
+
+h5 {
+  font-family: arial;
+  font-size: 60%;
+  text-align:center;
+}
+
+h4{
+  font-family: arial;
+  font-size: 200%;
+  color: black;
   text-align:center;
 }
 
@@ -110,9 +123,10 @@ p {
 
 div {
   background-color: lightgrey;
-  width: 750px;
-  border: 15px solid rgb(232, 90, 79);
-  padding: 75px;
+  width: 850px;
+  border: 10px solid rgb(232, 90, 79);
+  padding: 100px;
   margin: 10px;
-  margin-left : 16%;
+  margin-left : 10%;
+  
 }
