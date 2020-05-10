@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<link rel="stylesheet" href="styleP4.css" />
+		<link rel="icon" type="image/png" href="de_logo.png" />
+		<title>Jeu PFC</title>
+	</head>
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="Accueil.html">Accueil</a></li>
+        <li class="deroulant"><a href="Accueil.html#ancre2">Jeux</a>
+            <ul class="sous">
+                <li><a href="pierre.html">Pierre Feuille Ciseaux</a></li>
+                <li><a href="P4.html">Puissance 4</a></li>
+            </ul>
+        </li>
+        <li class="deroulant"><a href="regles.html">Règles</a>
+			<ul class="sous">
+				<li><a href="regles.html#ancre1">Pierre Feuille Ciseaux</a></li>
+				<li><a href="regles.html#ancre2">Puissance 4</a></li>
+			</ul>
+		</li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float:right"><img src="de_logo.png" alt="Logo" width="45" height="45"></li>
+    </ul>
+</nav>
+
+<br/>
+<h1>Puissance 4</h1>
+<br/>
+
+<p id='ma_balise' align="center">NOUVELLE PARTIE - Couleur du joueur suivant : BLEU</p>
+<p id='score' align="center"></p>
+
+<center>
+<script type="text/javascript" src="puissance.js">
+</script>
+
+<br/>
+
+<p><a href="#" onClick="remise_a_zero()">Vider la grille pour recommencer une nouvelle partie </a></p>
+
+<br/>
+
+</body>
+</html>
