@@ -131,7 +131,20 @@ div {
   
 }
 
-a{
-	text-decoration: none;
-	color: black;
+.button a{
+  font-size: 75%;
+  padding : 15px;
+  margin : 15px;
+  border-radius : 5px;
+  outline : none;
+  border : none;
+  color : rgb(234, 231, 220);
+  background-color : rgb(232, 90, 79);
+  cursor: pointer;
+  transition : 0.2s;
+  text-decoration: none;
+}
+.button:active a{
+  transform : scale(0.97);
+  text-decoration: none;
 }
