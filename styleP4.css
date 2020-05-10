@@ -117,10 +117,21 @@ button {
 button:active {
   transform : scale(0.97);
 }
-.resultat {
-  border : solid black 7px;
-  height : 100px;
-  text-align : center;
-  font-weight: bold;
-  padding : 60px;
+
+.button a{
+  font-size: 75%;
+  padding : 15px;
+  margin : 15px;
+  border-radius : 5px;
+  outline : none;
+  border : none;
+  color : rgb(234, 231, 220);
+  background-color : rgb(232, 90, 79);
+  cursor: pointer;
+  transition : 0.2s;
+  text-decoration: none;
+}
+.button:active a{
+  transform : scale(0.97);
+  text-decoration: none;
 }
