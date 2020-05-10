@@ -130,3 +130,8 @@ div {
   margin-left : 10%;
   
 }
+
+a{
+	text-decoration: none;
+	color: black;
+}
