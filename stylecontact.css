@@ -112,7 +112,7 @@ p {
   justify-content : center;
   padding : 10px ;
 }
-button {
+.button a{
   font-size: 75%;
   padding : 15px;
   margin : 15px;
@@ -123,9 +123,11 @@ button {
   background-color : rgb(232, 90, 79);
   cursor: pointer;
   transition : 0.2s;
+  text-decoration: none;
 }
-button:active {
+.button:active a{
   transform : scale(0.97);
+  text-decoration: none;
 }
 
 form {
