@@ -1,9 +1,9 @@
-<!DOCTYPE>
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="stylecontact.css" />
-		<link rel="icon" type="image/png" href="de_logo.png" />
+		<link rel="stylesheet" href="style/stylecontact.css" />
+		<link rel="icon" type="image/png" href="images/de_logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jeu PFC</title>
 	</head>
 <body>
@@ -11,55 +11,57 @@
 
 <nav>
     <ul>
-        <li><a href="Accueil.html">Accueil</a></li>
-        <li class="deroulant"><a href="Accueil.html#ancre2">Jeux</a>
+        <li><a href="index.html" style="font-size:1.75vw">Accueil</a></li>
+        <li class="deroulant"><a href="index.html#ancre2" style="font-size:1.75vw">Jeux</a>
             <ul class="sous">
-                <li><a href="pierre.html">Pierre Feuille Ciseaux</a></li>
-                <li><a href="P4.html">Puissance 4</a></li>
+                <li><a href="pierre.html" style="font-size:1.75vw">Pierre Feuille Ciseaux</a></li>
+                <li><a href="P4.html" style="font-size:1.75vw">Puissance 4</a></li>
             </ul>
         </li>
-        <li class="deroulant"><a href="regles.html">Règles</a>
+        <li class="deroulant"><a href="regles.html" style="font-size:1.75vw">Règles</a>
 			<ul class="sous">
-				<li><a href="regles.html#ancre1">Pierre Feuille Ciseaux</a></li>
-				<li><a href="regles.html#ancre2">Puissance 4</a></li>
+				<li><a href="regles.html#ancre1" style="font-size:1.75vw">Pierre Feuille Ciseaux</a></li>
+				<li><a href="regles.html#ancre2" style="font-size:1.75vw">Puissance 4</a></li>
 			</ul>
 		</li>
-        <li><a href="contact.html">Contact</a></li>
-        <li style="float:right"><img src="de_logo.png" alt="Logo" width="45" height="45"></li>
+        <li><a href="contact.html" style="font-size:1.75vw">Contact</a></li>
+        <li style="float:top;float:right"><img src="images/de_logo.png" alt="Logo" width="33%"></li>
     </ul>
 </nav>
 
 <br/>
 
 <div class="header" style="text-align:center;">
-  <h1>Contact</h1>
+  <h1 style="font-size:3.6vw">Contact</h1>
   <br/>
 </div>
 
-<h3>  Vous avez un commentaire ou une critique à émettre à propos de notre site ? N'hésitez pas, exprimez-vous !</h3>
-<h3> </h3>
-<form action="/ma-page-de-traitement" method="post">
+<h3 style="font-size:2vw">  Vous avez un commentaire ou une critique à émettre à propos de notre site ? N'hésitez pas, exprimez-vous !</h3>
+<br/>
+<form action="/ma-page-de-traitement" method="post" style="min-width: 25%;max-width: 35%">
     <div>
 		<h4>
-			<label for="name">Nom:</label>
-			<input type="text" id="name" name="user_name">
+			<label for="name" style="font-size:1.25vw">Nom:</label>
+			<input type="text" id="name" name="user_name" style="width: 50%">
 		</h4>
     </div>
     <div>
 		<h4>
-			<label for="mail">Mail:</label>
-			<input type="email" id="mail" name="user_mail">
+			<label for="mail" style="font-size:1.25vw">Mail:</label>
+			<input type="email" id="mail" name="user_mail" style="width: 50%">
 		</h4>
     </div>
     <div>
 		<h4>
-			<label for="msg">Message:</label>
-			<textarea id="msg" name="user_message"></textarea>
+			<label for="msg" style="font-size:1.25vw">Message:</label>
+			<textarea id="msg" name="user_message" style="width: 50%"></textarea>
 		</h4>
     </div>
-	<div class="button">
-        <a  class=”link” href="mailto:contact.sitelma@agmail.com" target="_blank">Envoyez un mail</a>
+	<div class="button" style="width: 100%">
+        <a  class=”link” href="mailto:contact.sitelma@agmail.com" target="_blank" style="font-size:1.5vw">Envoyez un mail</a>
 	</div>
 </form>
+
+</body>
 
    
