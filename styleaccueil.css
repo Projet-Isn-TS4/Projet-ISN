@@ -14,12 +14,12 @@ nav{
 	font-size:80%;
 	font-family:arial;
     width: 100%;
-    margin: 0px;
-	padding: 0px;
+    margin: 0%;
+	padding: 0%;
     background-color: rgb(37, 38, 41);
 	position: -webkit-sticky; 
     position: sticky;
-    top: 0px;
+    top: 0%;
 }
 
 nav ul{
@@ -44,7 +44,7 @@ nav a{
     text-decoration: none;
     color: rgb(234, 231, 220);
     border-bottom: 2px solid transparent;
-    padding: 12px 0px;
+    padding: 9%;
 }
 
 nav a:hover{
@@ -92,7 +92,7 @@ h3 {
 h2 {
   font-family: arial;
   font-size: 55%;
-  color: black;
+  color: white;
 }
 
 img.JeuFond{
@@ -101,7 +101,7 @@ img.JeuFond{
 }
 
 div.polaroid {
-  width: 400px;
+  width: 90%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 20px;
@@ -132,13 +132,16 @@ a{
 }
 
 img.AccFond{
-	height: auto;
+	height: 30%;
     width: 100%;
+	position:relative;
+    bottom:0px;
 	
 }
 
 .box{
         position: relative;
+		bottom:0px;
 }
 
 .box .text{
@@ -147,8 +150,12 @@ img.AccFond{
         margin: 0 auto;
         left: 0;
         right: 0;
-        top: 5%; /* Adjust this value to move the positioned div up and down */
+        top: 10%; /* Adjust this value to move the positioned div up and down */
         width: 99%; /* Set the width of the positioned div */
 		color:white;
+		height: auto;
 }
+
+
+
 
