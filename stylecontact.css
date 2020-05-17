@@ -14,12 +14,12 @@ nav{
     font-size:80%;
     font-family:arial;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     background-color: rgb(37, 38, 41);
     position: -webkit-sticky; 
     position: sticky;
-    top: 0px;
+    top: 0%;
 }
 
 nav ul{
@@ -44,7 +44,7 @@ nav a{
     text-decoration: none;
     color: rgb(234, 231, 220);
     border-bottom: 2px solid transparent;
-    padding: 12px 0px;
+    padding: 9%;
 }
 
 nav a:hover{
