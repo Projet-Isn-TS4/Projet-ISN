@@ -1,0 +1,163 @@
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+body {
+  font-size: 30px;
+  background-color: rgb(234, 231, 220);
+}
+
+nav{
+	font-size:80%;
+	font-family:arial;
+    width: 100%;
+    margin: 0%;
+	padding: 0%;
+    background-color: rgb(37, 38, 41);
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(234, 231, 220);
+    border-bottom: 2px solid transparent;
+    padding: 9%;
+}
+
+nav a:hover{
+    color: rgb(232, 90, 79);
+    border-bottom: 2px solid rgb(232, 90, 79);
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(37, 38, 41);
+    position: absolute;
+    width: 200%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgb(15, 15, 15);
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+li.connexion a:hover{
+	background-color: rgb(200, 70, 60);
+	color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: arial;
+  font-size: 180%;
+  color: rgb(232, 90, 79);
+}
+
+h2 {
+  font-family: arial;
+  font-size: 55%;
+  color: white;
+}
+
+img.JeuFond{
+	height: auto;
+    width: 100%;
+}
+
+div.polaroid {
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 5x 10px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img.AccFond{
+	height: 30%;
+    width: 100%;
+	position:relative;
+    bottom:0px;
+	
+}
+
+.box{
+        position: relative;
+		bottom:0px;
+}
+
+.box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%; /* Adjust this value to move the positioned div up and down */
+        width: 99%; /* Set the width of the positioned div */
+		color:white;
+		height: auto;
+}
+
