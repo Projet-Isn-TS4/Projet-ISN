@@ -190,26 +190,50 @@ button {
 
 
 img.AccFond{
-	height: 30%;
+	height: 8%;
     width: 100%;
 	position:relative;
     bottom:0px;
-	
 }
 
-.box{
-        position: relative;
-		bottom:0px;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
 
-.box .text{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 10%; /* Adjust this value to move the positioned div up and down */
-        width: 99%; /* Set the width of the positioned div */
-		color:white;
-		height: auto;
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1%;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
